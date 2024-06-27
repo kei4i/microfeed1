@@ -7,10 +7,6 @@ const ALLOWED_VARS = [
   {name: 'CLOUDFLARE_API_TOKEN', encrypted: true, required: true},
   {name: 'DEPLOYMENT_ENVIRONMENT', encrypted: false, required: false},
 
-  {name: 'R2_ACCESS_KEY_ID', encrypted: true, required: true},
-  {name: 'R2_SECRET_ACCESS_KEY', encrypted: true, required: true},
-  {name: 'R2_PUBLIC_BUCKET', encrypted: true, required: false},
-
   {name: 'D1_DATABASE_NAME', encrypted: true, required: false},
 
   {name: 'NODE_VERSION', encrypted: false, required: false},  // Cloudflare Pages CI needs this to use the right Node version.
